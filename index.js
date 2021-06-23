@@ -47,3 +47,7 @@ function calculadora() {
 
   }
 }
+//função do login 
+function login() {
+   alert ("Olá Mundo")
+}

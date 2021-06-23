@@ -1,0 +1,28 @@
+body {
+  background: url("img/fundo.jpeg");
+  color: black;
+}
+p {
+  font-size: 200%;
+  border: solid;
+  border-color: green;
+}
+.btn {
+  color: black;
+  background-color: grey;
+  font-size: 100%;
+  margin-top: 7px;
+  width: 100%;
+}
+.btn:hover {
+  font-size: 113%;
+  border: none;
+  
+}
+.btn:focus {
+  font-size: 113%;
+  border: none;
+}
+.menu {
+  text-align: center;
+}

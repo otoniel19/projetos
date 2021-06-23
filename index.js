@@ -47,7 +47,3 @@ function calculadora() {
 
   }
 }
-//função do login
-function login() {
-  alert("ola")
-}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>adm</title>
+</head>
+
+<body bgcolor="cyan">
+  <p>BEM VINDO ADM</p>
+  <p>Seu Nivel De Acesso: administrador</p>
+  <p>Nome: admin</p>
+  <p>Senha: 12345678910</p>
+  
+  <a href="index.html"><button>Voltar</button></a>
+  <button onclick="history.go(0)">Atualizar</button>
+  <br>
+  <br>
+  <br>
+     <p>Coisas Adicionais Só Para Adms:</p>
+     
+     <input type="button" value="data/hora" onclick="document.getElementById('data').innerHTML = Date(); ">
+     <p id="data"></p>
+     
+     <input type="button" value="contador de letras" onclick="on()">
+     <br><br>
+     <input type="button" value="letras minúsculas" onclick="lm()">
+     <br><br>
+     <input type="button" value="letras maiúsculas" onclick="LM()">
+<
+
+
+
+<script>
+  //função do contador de letras
+  function on() {
+    let nome = prompt("digite o tanto de caráteres desejados")
+    n = (nome)
+    window.confirm(` total de ${n.length} caráteres`)
+  }
+  //função das letras minúsculas
+  function lm() {
+    let nome = prompt("digita tanto letras")
+    
+    nome1 = (nome)
+    
+    window.confirm(` ${nome1.toLowerCase()} `)
+  }
+  //função das letras maiúsculas
+  function LM() {
+    let nome = prompt("digite tanto letras")
+    
+    nome1 = (nome)
+    
+    window.confirm(` ${nome1.toUpperCase()} `)
+  }
+</script>
+</body>
+
+</html>
